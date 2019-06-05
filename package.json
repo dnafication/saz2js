@@ -1,0 +1,27 @@
+{
+  "name": "saz2js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dnafication/saz2json",
+  "description": "A utility which consumes a saz file and converts to a sessions object",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "saz",
+    "parse",
+    "json"
+  ],
+  "author": "dnafication <dnafication@users.noreply.github.com> (https://github.com/dnafication)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "yauzl": "^2.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
