@@ -1,4 +1,4 @@
-# saz2json
+# saz2js
 
 A utility to convert fiddler capture (`.saz`) to js object.
 
