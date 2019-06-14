@@ -4,6 +4,8 @@ A utility to convert fiddler capture (`.saz`) to js object.
 
 The code is inspired by [node-saz-parser](https://github.com/ludoviclefevre/node-saz-parser), updated to use [yauzl](https://github.com/thejoshwolfe/yauzl) instead of `unzip`.
 
+**Breaking Change:** The release 1.0.0 and above allows you to control the content of sessions object, hence the api change. Now it parses the meta data as well.
+
 ## Usage
 
 1. install the package `npm i saz2js`
