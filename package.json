@@ -8,7 +8,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "minor-release": "npm version minor && npm publish && git push --follow-tags"
   },
   "keywords": [
     "saz",
@@ -19,6 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.11",
+    "xml-js": "^1.6.11",
     "yauzl": "^2.10.0"
   },
   "devDependencies": {
