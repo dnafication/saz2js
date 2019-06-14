@@ -1,6 +1,6 @@
 {
   "name": "saz2js",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/dnafication/saz2js",
   "description": "A utility which consumes a saz file and converts to a sessions object",
   "main": "index.js",
